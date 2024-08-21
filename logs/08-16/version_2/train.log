@@ -1,0 +1,352 @@
+2024-08-16 22:19:34 train_clip.py [line:194] INFO: Model will be saved at ckptFE/08-16/version_0
+2024-08-16 22:19:34 train_clip.py [line:123] INFO: model parameters: 
+
+2024-08-16 22:19:34 train_clip.py [line:124] INFO: +-----------------------+-----------------+
+| Parameter             | Value           |
++=======================+=================+
+| seed                  | 123             |
++-----------------------+-----------------+
+| optimizer             | AdanBelief      |
++-----------------------+-----------------+
+| lr                    | 3e-06           |
++-----------------------+-----------------+
+| betas                 | [0.8, 0.8, 0.9] |
++-----------------------+-----------------+
+| eps                   | 1e-12           |
++-----------------------+-----------------+
+| weight_decay          | 0.2             |
++-----------------------+-----------------+
+| batch_size            | 256             |
++-----------------------+-----------------+
+| num_workers           | 8               |
++-----------------------+-----------------+
+| epochs                | 300             |
++-----------------------+-----------------+
+| early_stop            | False           |
++-----------------------+-----------------+
+| patience              | 10              |
++-----------------------+-----------------+
+| delta                 | 0.0001          |
++-----------------------+-----------------+
+| caption_version       | 1               |
++-----------------------+-----------------+
+| data_augment          | 0               |
++-----------------------+-----------------+
+| model_save_path       | ckptFE          |
++-----------------------+-----------------+
+| log_save_path         | logs            |
++-----------------------+-----------------+
+| compute_acc_frequency | 0               |
++-----------------------+-----------------+
+| use_scheduler         | False           |
++-----------------------+-----------------+
+| save_frequency        | 5               |
++-----------------------+-----------------+
+| freeze_version        | 3               |
++-----------------------+-----------------+
+2024-08-16 22:19:34 train_clip.py [line:126] INFO: 
+
+Start training...
+2024-08-16 22:20:05 train_clip.py [line:166] INFO: Epoch: 1, Loss: 7.0490 Min Loss: 7.0490
+2024-08-16 22:20:15 train_clip.py [line:166] INFO: Epoch: 2, Loss: 4.8123 Min Loss: 4.8123
+2024-08-16 22:20:25 train_clip.py [line:166] INFO: Epoch: 3, Loss: 4.0688 Min Loss: 4.0688
+2024-08-16 22:20:36 train_clip.py [line:166] INFO: Epoch: 4, Loss: 3.4175 Min Loss: 3.4175
+2024-08-16 22:20:49 train_clip.py [line:166] INFO: Epoch: 5, Loss: 2.9465 Min Loss: 2.9465
+2024-08-16 22:20:58 train_clip.py [line:166] INFO: Epoch: 6, Loss: 2.7140 Min Loss: 2.7140
+2024-08-16 22:21:09 train_clip.py [line:166] INFO: Epoch: 7, Loss: 2.5515 Min Loss: 2.5515
+2024-08-16 22:21:19 train_clip.py [line:166] INFO: Epoch: 8, Loss: 2.3054 Min Loss: 2.3054
+2024-08-16 22:21:29 train_clip.py [line:166] INFO: Epoch: 9, Loss: 2.1756 Min Loss: 2.1756
+2024-08-16 22:21:39 train_clip.py [line:166] INFO: Epoch: 10, Loss: 2.4902 Min Loss: 2.1756
+2024-08-16 22:21:45 train_clip.py [line:166] INFO: Epoch: 11, Loss: 2.3053 Min Loss: 2.1756
+2024-08-16 22:21:52 train_clip.py [line:166] INFO: Epoch: 12, Loss: 2.2555 Min Loss: 2.1756
+2024-08-16 22:21:59 train_clip.py [line:166] INFO: Epoch: 13, Loss: 2.2071 Min Loss: 2.1756
+2024-08-16 22:22:10 train_clip.py [line:166] INFO: Epoch: 14, Loss: 2.1747 Min Loss: 2.1747
+2024-08-16 22:22:20 train_clip.py [line:166] INFO: Epoch: 15, Loss: 2.1938 Min Loss: 2.1747
+2024-08-16 22:22:27 train_clip.py [line:166] INFO: Epoch: 16, Loss: 2.1822 Min Loss: 2.1747
+2024-08-16 22:22:34 train_clip.py [line:166] INFO: Epoch: 17, Loss: 2.1872 Min Loss: 2.1747
+2024-08-16 22:22:41 train_clip.py [line:166] INFO: Epoch: 18, Loss: 2.3136 Min Loss: 2.1747
+2024-08-16 22:22:52 train_clip.py [line:166] INFO: Epoch: 19, Loss: 2.0492 Min Loss: 2.0492
+2024-08-16 22:23:02 train_clip.py [line:166] INFO: Epoch: 20, Loss: 2.2689 Min Loss: 2.0492
+2024-08-16 22:23:09 train_clip.py [line:166] INFO: Epoch: 21, Loss: 2.2215 Min Loss: 2.0492
+2024-08-16 22:23:20 train_clip.py [line:166] INFO: Epoch: 22, Loss: 1.9389 Min Loss: 1.9389
+2024-08-16 22:23:26 train_clip.py [line:166] INFO: Epoch: 23, Loss: 2.1373 Min Loss: 1.9389
+2024-08-16 22:23:33 train_clip.py [line:166] INFO: Epoch: 24, Loss: 2.1500 Min Loss: 1.9389
+2024-08-16 22:23:44 train_clip.py [line:166] INFO: Epoch: 25, Loss: 2.2212 Min Loss: 1.9389
+2024-08-16 22:23:51 train_clip.py [line:166] INFO: Epoch: 26, Loss: 2.0665 Min Loss: 1.9389
+2024-08-16 22:23:58 train_clip.py [line:166] INFO: Epoch: 27, Loss: 2.2367 Min Loss: 1.9389
+2024-08-16 22:24:05 train_clip.py [line:166] INFO: Epoch: 28, Loss: 2.1817 Min Loss: 1.9389
+2024-08-16 22:24:13 train_clip.py [line:166] INFO: Epoch: 29, Loss: 2.1686 Min Loss: 1.9389
+2024-08-16 22:24:23 train_clip.py [line:166] INFO: Epoch: 30, Loss: 1.9599 Min Loss: 1.9389
+2024-08-16 22:24:30 train_clip.py [line:166] INFO: Epoch: 31, Loss: 2.3007 Min Loss: 1.9389
+2024-08-16 22:24:37 train_clip.py [line:166] INFO: Epoch: 32, Loss: 2.0953 Min Loss: 1.9389
+2024-08-16 22:24:44 train_clip.py [line:166] INFO: Epoch: 33, Loss: 2.1647 Min Loss: 1.9389
+2024-08-16 22:24:52 train_clip.py [line:166] INFO: Epoch: 34, Loss: 2.0736 Min Loss: 1.9389
+2024-08-16 22:25:03 train_clip.py [line:166] INFO: Epoch: 35, Loss: 2.0441 Min Loss: 1.9389
+2024-08-16 22:25:09 train_clip.py [line:166] INFO: Epoch: 36, Loss: 2.1634 Min Loss: 1.9389
+2024-08-16 22:25:16 train_clip.py [line:166] INFO: Epoch: 37, Loss: 2.0036 Min Loss: 1.9389
+2024-08-16 22:25:24 train_clip.py [line:166] INFO: Epoch: 38, Loss: 2.3101 Min Loss: 1.9389
+2024-08-16 22:25:31 train_clip.py [line:166] INFO: Epoch: 39, Loss: 2.0189 Min Loss: 1.9389
+2024-08-16 22:25:42 train_clip.py [line:166] INFO: Epoch: 40, Loss: 2.0128 Min Loss: 1.9389
+2024-08-16 22:25:48 train_clip.py [line:166] INFO: Epoch: 41, Loss: 2.0590 Min Loss: 1.9389
+2024-08-16 22:25:56 train_clip.py [line:166] INFO: Epoch: 42, Loss: 2.0389 Min Loss: 1.9389
+2024-08-16 22:26:03 train_clip.py [line:166] INFO: Epoch: 43, Loss: 1.9721 Min Loss: 1.9389
+2024-08-16 22:26:10 train_clip.py [line:166] INFO: Epoch: 44, Loss: 1.9901 Min Loss: 1.9389
+2024-08-16 22:26:21 train_clip.py [line:166] INFO: Epoch: 45, Loss: 2.0052 Min Loss: 1.9389
+2024-08-16 22:26:28 train_clip.py [line:166] INFO: Epoch: 46, Loss: 2.0324 Min Loss: 1.9389
+2024-08-16 22:26:35 train_clip.py [line:166] INFO: Epoch: 47, Loss: 1.9560 Min Loss: 1.9389
+2024-08-16 22:26:42 train_clip.py [line:166] INFO: Epoch: 48, Loss: 2.1236 Min Loss: 1.9389
+2024-08-16 22:26:49 train_clip.py [line:166] INFO: Epoch: 49, Loss: 2.0911 Min Loss: 1.9389
+2024-08-16 22:27:00 train_clip.py [line:166] INFO: Epoch: 50, Loss: 1.9658 Min Loss: 1.9389
+2024-08-16 22:27:07 train_clip.py [line:166] INFO: Epoch: 51, Loss: 2.1015 Min Loss: 1.9389
+2024-08-16 22:27:14 train_clip.py [line:166] INFO: Epoch: 52, Loss: 1.9738 Min Loss: 1.9389
+2024-08-16 22:27:22 train_clip.py [line:166] INFO: Epoch: 53, Loss: 2.0110 Min Loss: 1.9389
+2024-08-16 22:27:29 train_clip.py [line:166] INFO: Epoch: 54, Loss: 2.1466 Min Loss: 1.9389
+2024-08-16 22:27:40 train_clip.py [line:166] INFO: Epoch: 55, Loss: 2.0683 Min Loss: 1.9389
+2024-08-16 22:27:46 train_clip.py [line:166] INFO: Epoch: 56, Loss: 1.9923 Min Loss: 1.9389
+2024-08-16 22:27:54 train_clip.py [line:166] INFO: Epoch: 57, Loss: 2.0126 Min Loss: 1.9389
+2024-08-16 22:28:01 train_clip.py [line:166] INFO: Epoch: 58, Loss: 2.1648 Min Loss: 1.9389
+2024-08-16 22:28:08 train_clip.py [line:166] INFO: Epoch: 59, Loss: 2.0342 Min Loss: 1.9389
+2024-08-16 22:28:19 train_clip.py [line:166] INFO: Epoch: 60, Loss: 2.1146 Min Loss: 1.9389
+2024-08-16 22:28:26 train_clip.py [line:166] INFO: Epoch: 61, Loss: 2.0196 Min Loss: 1.9389
+2024-08-16 22:28:33 train_clip.py [line:166] INFO: Epoch: 62, Loss: 1.9509 Min Loss: 1.9389
+2024-08-16 22:28:40 train_clip.py [line:166] INFO: Epoch: 63, Loss: 2.1078 Min Loss: 1.9389
+2024-08-16 22:28:47 train_clip.py [line:166] INFO: Epoch: 64, Loss: 2.1314 Min Loss: 1.9389
+2024-08-16 22:28:58 train_clip.py [line:166] INFO: Epoch: 65, Loss: 2.0892 Min Loss: 1.9389
+2024-08-16 22:29:05 train_clip.py [line:166] INFO: Epoch: 66, Loss: 2.0206 Min Loss: 1.9389
+2024-08-16 22:29:12 train_clip.py [line:166] INFO: Epoch: 67, Loss: 1.9906 Min Loss: 1.9389
+2024-08-16 22:29:19 train_clip.py [line:166] INFO: Epoch: 68, Loss: 2.0944 Min Loss: 1.9389
+2024-08-16 22:29:27 train_clip.py [line:166] INFO: Epoch: 69, Loss: 1.9680 Min Loss: 1.9389
+2024-08-16 22:29:38 train_clip.py [line:166] INFO: Epoch: 70, Loss: 2.0831 Min Loss: 1.9389
+2024-08-16 22:29:44 train_clip.py [line:166] INFO: Epoch: 71, Loss: 2.0933 Min Loss: 1.9389
+2024-08-16 22:29:52 train_clip.py [line:166] INFO: Epoch: 72, Loss: 2.0730 Min Loss: 1.9389
+2024-08-16 22:29:59 train_clip.py [line:166] INFO: Epoch: 73, Loss: 2.1372 Min Loss: 1.9389
+2024-08-16 22:30:06 train_clip.py [line:166] INFO: Epoch: 74, Loss: 1.9930 Min Loss: 1.9389
+2024-08-16 22:30:17 train_clip.py [line:166] INFO: Epoch: 75, Loss: 1.9469 Min Loss: 1.9389
+2024-08-16 22:30:24 train_clip.py [line:166] INFO: Epoch: 76, Loss: 2.1202 Min Loss: 1.9389
+2024-08-16 22:30:31 train_clip.py [line:166] INFO: Epoch: 77, Loss: 2.1336 Min Loss: 1.9389
+2024-08-16 22:30:38 train_clip.py [line:166] INFO: Epoch: 78, Loss: 1.9907 Min Loss: 1.9389
+2024-08-16 22:30:45 train_clip.py [line:166] INFO: Epoch: 79, Loss: 2.1553 Min Loss: 1.9389
+2024-08-16 22:30:56 train_clip.py [line:166] INFO: Epoch: 80, Loss: 2.0442 Min Loss: 1.9389
+2024-08-16 22:31:07 train_clip.py [line:166] INFO: Epoch: 81, Loss: 1.9330 Min Loss: 1.9330
+2024-08-16 22:31:13 train_clip.py [line:166] INFO: Epoch: 82, Loss: 2.0297 Min Loss: 1.9330
+2024-08-16 22:31:21 train_clip.py [line:166] INFO: Epoch: 83, Loss: 2.0460 Min Loss: 1.9330
+2024-08-16 22:31:28 train_clip.py [line:166] INFO: Epoch: 84, Loss: 1.9649 Min Loss: 1.9330
+2024-08-16 22:31:39 train_clip.py [line:166] INFO: Epoch: 85, Loss: 2.0295 Min Loss: 1.9330
+2024-08-16 22:31:45 train_clip.py [line:166] INFO: Epoch: 86, Loss: 2.1201 Min Loss: 1.9330
+2024-08-16 22:31:56 train_clip.py [line:166] INFO: Epoch: 87, Loss: 1.8893 Min Loss: 1.8893
+2024-08-16 22:32:03 train_clip.py [line:166] INFO: Epoch: 88, Loss: 2.1687 Min Loss: 1.8893
+2024-08-16 22:32:10 train_clip.py [line:166] INFO: Epoch: 89, Loss: 2.1241 Min Loss: 1.8893
+2024-08-16 22:32:21 train_clip.py [line:166] INFO: Epoch: 90, Loss: 1.9222 Min Loss: 1.8893
+2024-08-16 22:32:28 train_clip.py [line:166] INFO: Epoch: 91, Loss: 2.1301 Min Loss: 1.8893
+2024-08-16 22:32:35 train_clip.py [line:166] INFO: Epoch: 92, Loss: 2.1017 Min Loss: 1.8893
+2024-08-16 22:32:42 train_clip.py [line:166] INFO: Epoch: 93, Loss: 1.9140 Min Loss: 1.8893
+2024-08-16 22:32:50 train_clip.py [line:166] INFO: Epoch: 94, Loss: 2.0146 Min Loss: 1.8893
+2024-08-16 22:33:01 train_clip.py [line:166] INFO: Epoch: 95, Loss: 1.9655 Min Loss: 1.8893
+2024-08-16 22:33:07 train_clip.py [line:166] INFO: Epoch: 96, Loss: 2.0922 Min Loss: 1.8893
+2024-08-16 22:33:14 train_clip.py [line:166] INFO: Epoch: 97, Loss: 1.9463 Min Loss: 1.8893
+2024-08-16 22:33:22 train_clip.py [line:166] INFO: Epoch: 98, Loss: 2.0181 Min Loss: 1.8893
+2024-08-16 22:33:29 train_clip.py [line:166] INFO: Epoch: 99, Loss: 2.0131 Min Loss: 1.8893
+2024-08-16 22:33:40 train_clip.py [line:166] INFO: Epoch: 100, Loss: 2.1419 Min Loss: 1.8893
+2024-08-16 22:33:46 train_clip.py [line:166] INFO: Epoch: 101, Loss: 2.0101 Min Loss: 1.8893
+2024-08-16 22:33:54 train_clip.py [line:166] INFO: Epoch: 102, Loss: 1.9148 Min Loss: 1.8893
+2024-08-16 22:34:01 train_clip.py [line:166] INFO: Epoch: 103, Loss: 1.9860 Min Loss: 1.8893
+2024-08-16 22:34:08 train_clip.py [line:166] INFO: Epoch: 104, Loss: 1.9539 Min Loss: 1.8893
+2024-08-16 22:34:19 train_clip.py [line:166] INFO: Epoch: 105, Loss: 2.1144 Min Loss: 1.8893
+2024-08-16 22:34:26 train_clip.py [line:166] INFO: Epoch: 106, Loss: 2.1430 Min Loss: 1.8893
+2024-08-16 22:34:33 train_clip.py [line:166] INFO: Epoch: 107, Loss: 2.2403 Min Loss: 1.8893
+2024-08-16 22:34:40 train_clip.py [line:166] INFO: Epoch: 108, Loss: 2.0305 Min Loss: 1.8893
+2024-08-16 22:34:47 train_clip.py [line:166] INFO: Epoch: 109, Loss: 2.0587 Min Loss: 1.8893
+2024-08-16 22:34:58 train_clip.py [line:166] INFO: Epoch: 110, Loss: 1.9929 Min Loss: 1.8893
+2024-08-16 22:35:05 train_clip.py [line:166] INFO: Epoch: 111, Loss: 2.0634 Min Loss: 1.8893
+2024-08-16 22:35:12 train_clip.py [line:166] INFO: Epoch: 112, Loss: 1.9385 Min Loss: 1.8893
+2024-08-16 22:35:23 train_clip.py [line:166] INFO: Epoch: 113, Loss: 1.8636 Min Loss: 1.8636
+2024-08-16 22:35:30 train_clip.py [line:166] INFO: Epoch: 114, Loss: 2.1421 Min Loss: 1.8636
+2024-08-16 22:35:41 train_clip.py [line:166] INFO: Epoch: 115, Loss: 2.0936 Min Loss: 1.8636
+2024-08-16 22:35:47 train_clip.py [line:166] INFO: Epoch: 116, Loss: 2.1377 Min Loss: 1.8636
+2024-08-16 22:35:55 train_clip.py [line:166] INFO: Epoch: 117, Loss: 2.0191 Min Loss: 1.8636
+2024-08-16 22:36:02 train_clip.py [line:166] INFO: Epoch: 118, Loss: 2.0062 Min Loss: 1.8636
+2024-08-16 22:36:09 train_clip.py [line:166] INFO: Epoch: 119, Loss: 1.8692 Min Loss: 1.8636
+2024-08-16 22:36:23 train_clip.py [line:166] INFO: Epoch: 120, Loss: 1.7824 Min Loss: 1.7824
+2024-08-16 22:36:30 train_clip.py [line:166] INFO: Epoch: 121, Loss: 1.9042 Min Loss: 1.7824
+2024-08-16 22:36:37 train_clip.py [line:166] INFO: Epoch: 122, Loss: 1.9384 Min Loss: 1.7824
+2024-08-16 22:36:44 train_clip.py [line:166] INFO: Epoch: 123, Loss: 1.9775 Min Loss: 1.7824
+2024-08-16 22:36:51 train_clip.py [line:166] INFO: Epoch: 124, Loss: 2.2084 Min Loss: 1.7824
+2024-08-16 22:37:02 train_clip.py [line:166] INFO: Epoch: 125, Loss: 1.9673 Min Loss: 1.7824
+2024-08-16 22:37:09 train_clip.py [line:166] INFO: Epoch: 126, Loss: 2.0376 Min Loss: 1.7824
+2024-08-16 22:37:16 train_clip.py [line:166] INFO: Epoch: 127, Loss: 1.9117 Min Loss: 1.7824
+2024-08-16 22:37:23 train_clip.py [line:166] INFO: Epoch: 128, Loss: 2.0037 Min Loss: 1.7824
+2024-08-16 22:37:31 train_clip.py [line:166] INFO: Epoch: 129, Loss: 1.9259 Min Loss: 1.7824
+2024-08-16 22:37:42 train_clip.py [line:166] INFO: Epoch: 130, Loss: 2.0058 Min Loss: 1.7824
+2024-08-16 22:37:48 train_clip.py [line:166] INFO: Epoch: 131, Loss: 1.9904 Min Loss: 1.7824
+2024-08-16 22:37:56 train_clip.py [line:166] INFO: Epoch: 132, Loss: 1.8942 Min Loss: 1.7824
+2024-08-16 22:38:03 train_clip.py [line:166] INFO: Epoch: 133, Loss: 2.0404 Min Loss: 1.7824
+2024-08-16 22:38:10 train_clip.py [line:166] INFO: Epoch: 134, Loss: 2.0358 Min Loss: 1.7824
+2024-08-16 22:38:21 train_clip.py [line:166] INFO: Epoch: 135, Loss: 2.0139 Min Loss: 1.7824
+2024-08-16 22:38:28 train_clip.py [line:166] INFO: Epoch: 136, Loss: 1.9202 Min Loss: 1.7824
+2024-08-16 22:38:35 train_clip.py [line:166] INFO: Epoch: 137, Loss: 2.1041 Min Loss: 1.7824
+2024-08-16 22:38:42 train_clip.py [line:166] INFO: Epoch: 138, Loss: 2.0895 Min Loss: 1.7824
+2024-08-16 22:38:49 train_clip.py [line:166] INFO: Epoch: 139, Loss: 2.0506 Min Loss: 1.7824
+2024-08-16 22:39:00 train_clip.py [line:166] INFO: Epoch: 140, Loss: 1.8994 Min Loss: 1.7824
+2024-08-16 22:39:07 train_clip.py [line:166] INFO: Epoch: 141, Loss: 1.9475 Min Loss: 1.7824
+2024-08-16 22:39:14 train_clip.py [line:166] INFO: Epoch: 142, Loss: 2.1139 Min Loss: 1.7824
+2024-08-16 22:39:21 train_clip.py [line:166] INFO: Epoch: 143, Loss: 1.9147 Min Loss: 1.7824
+2024-08-16 22:39:29 train_clip.py [line:166] INFO: Epoch: 144, Loss: 2.0039 Min Loss: 1.7824
+2024-08-16 22:39:40 train_clip.py [line:166] INFO: Epoch: 145, Loss: 1.9509 Min Loss: 1.7824
+2024-08-16 22:39:46 train_clip.py [line:166] INFO: Epoch: 146, Loss: 1.8987 Min Loss: 1.7824
+2024-08-16 22:39:53 train_clip.py [line:166] INFO: Epoch: 147, Loss: 2.0895 Min Loss: 1.7824
+2024-08-16 22:40:01 train_clip.py [line:166] INFO: Epoch: 148, Loss: 1.9698 Min Loss: 1.7824
+2024-08-16 22:40:08 train_clip.py [line:166] INFO: Epoch: 149, Loss: 1.8764 Min Loss: 1.7824
+2024-08-16 22:40:19 train_clip.py [line:166] INFO: Epoch: 150, Loss: 1.9602 Min Loss: 1.7824
+2024-08-16 22:40:25 train_clip.py [line:166] INFO: Epoch: 151, Loss: 2.0643 Min Loss: 1.7824
+2024-08-16 22:40:33 train_clip.py [line:166] INFO: Epoch: 152, Loss: 2.0551 Min Loss: 1.7824
+2024-08-16 22:40:40 train_clip.py [line:166] INFO: Epoch: 153, Loss: 1.9803 Min Loss: 1.7824
+2024-08-16 22:40:47 train_clip.py [line:166] INFO: Epoch: 154, Loss: 1.9083 Min Loss: 1.7824
+2024-08-16 22:40:58 train_clip.py [line:166] INFO: Epoch: 155, Loss: 2.0035 Min Loss: 1.7824
+2024-08-16 22:41:05 train_clip.py [line:166] INFO: Epoch: 156, Loss: 2.0215 Min Loss: 1.7824
+2024-08-16 22:41:12 train_clip.py [line:166] INFO: Epoch: 157, Loss: 1.8730 Min Loss: 1.7824
+2024-08-16 22:41:19 train_clip.py [line:166] INFO: Epoch: 158, Loss: 1.9265 Min Loss: 1.7824
+2024-08-16 22:41:26 train_clip.py [line:166] INFO: Epoch: 159, Loss: 2.1066 Min Loss: 1.7824
+2024-08-16 22:41:37 train_clip.py [line:166] INFO: Epoch: 160, Loss: 1.9314 Min Loss: 1.7824
+2024-08-16 22:41:44 train_clip.py [line:166] INFO: Epoch: 161, Loss: 1.9230 Min Loss: 1.7824
+2024-08-16 22:41:51 train_clip.py [line:166] INFO: Epoch: 162, Loss: 2.0344 Min Loss: 1.7824
+2024-08-16 22:41:59 train_clip.py [line:166] INFO: Epoch: 163, Loss: 2.1062 Min Loss: 1.7824
+2024-08-16 22:42:06 train_clip.py [line:166] INFO: Epoch: 164, Loss: 1.9776 Min Loss: 1.7824
+2024-08-16 22:42:17 train_clip.py [line:166] INFO: Epoch: 165, Loss: 1.9870 Min Loss: 1.7824
+2024-08-16 22:42:23 train_clip.py [line:166] INFO: Epoch: 166, Loss: 1.9556 Min Loss: 1.7824
+2024-08-16 22:42:31 train_clip.py [line:166] INFO: Epoch: 167, Loss: 2.0077 Min Loss: 1.7824
+2024-08-16 22:42:38 train_clip.py [line:166] INFO: Epoch: 168, Loss: 2.0239 Min Loss: 1.7824
+2024-08-16 22:42:45 train_clip.py [line:166] INFO: Epoch: 169, Loss: 2.0132 Min Loss: 1.7824
+2024-08-16 22:42:56 train_clip.py [line:166] INFO: Epoch: 170, Loss: 1.9300 Min Loss: 1.7824
+2024-08-16 22:43:03 train_clip.py [line:166] INFO: Epoch: 171, Loss: 2.0223 Min Loss: 1.7824
+2024-08-16 22:43:10 train_clip.py [line:166] INFO: Epoch: 172, Loss: 1.8710 Min Loss: 1.7824
+2024-08-16 22:43:17 train_clip.py [line:166] INFO: Epoch: 173, Loss: 1.8657 Min Loss: 1.7824
+2024-08-16 22:43:25 train_clip.py [line:166] INFO: Epoch: 174, Loss: 1.9224 Min Loss: 1.7824
+2024-08-16 22:43:35 train_clip.py [line:166] INFO: Epoch: 175, Loss: 1.9487 Min Loss: 1.7824
+2024-08-16 22:43:42 train_clip.py [line:166] INFO: Epoch: 176, Loss: 1.9270 Min Loss: 1.7824
+2024-08-16 22:43:49 train_clip.py [line:166] INFO: Epoch: 177, Loss: 1.9772 Min Loss: 1.7824
+2024-08-16 22:43:57 train_clip.py [line:166] INFO: Epoch: 178, Loss: 1.9846 Min Loss: 1.7824
+2024-08-16 22:44:04 train_clip.py [line:166] INFO: Epoch: 179, Loss: 1.8652 Min Loss: 1.7824
+2024-08-16 22:44:15 train_clip.py [line:166] INFO: Epoch: 180, Loss: 1.7972 Min Loss: 1.7824
+2024-08-16 22:44:22 train_clip.py [line:166] INFO: Epoch: 181, Loss: 1.9820 Min Loss: 1.7824
+2024-08-16 22:44:29 train_clip.py [line:166] INFO: Epoch: 182, Loss: 1.8702 Min Loss: 1.7824
+2024-08-16 22:44:36 train_clip.py [line:166] INFO: Epoch: 183, Loss: 2.1323 Min Loss: 1.7824
+2024-08-16 22:44:43 train_clip.py [line:166] INFO: Epoch: 184, Loss: 2.0299 Min Loss: 1.7824
+2024-08-16 22:44:54 train_clip.py [line:166] INFO: Epoch: 185, Loss: 2.0257 Min Loss: 1.7824
+2024-08-16 22:45:01 train_clip.py [line:166] INFO: Epoch: 186, Loss: 2.0161 Min Loss: 1.7824
+2024-08-16 22:45:08 train_clip.py [line:166] INFO: Epoch: 187, Loss: 2.0114 Min Loss: 1.7824
+2024-08-16 22:45:15 train_clip.py [line:166] INFO: Epoch: 188, Loss: 1.9964 Min Loss: 1.7824
+2024-08-16 22:45:23 train_clip.py [line:166] INFO: Epoch: 189, Loss: 2.0234 Min Loss: 1.7824
+2024-08-16 22:45:34 train_clip.py [line:166] INFO: Epoch: 190, Loss: 2.0094 Min Loss: 1.7824
+2024-08-16 22:45:40 train_clip.py [line:166] INFO: Epoch: 191, Loss: 1.8984 Min Loss: 1.7824
+2024-08-16 22:45:47 train_clip.py [line:166] INFO: Epoch: 192, Loss: 2.1018 Min Loss: 1.7824
+2024-08-16 22:45:55 train_clip.py [line:166] INFO: Epoch: 193, Loss: 1.9878 Min Loss: 1.7824
+2024-08-16 22:46:02 train_clip.py [line:166] INFO: Epoch: 194, Loss: 1.8007 Min Loss: 1.7824
+2024-08-16 22:46:13 train_clip.py [line:166] INFO: Epoch: 195, Loss: 2.0197 Min Loss: 1.7824
+2024-08-16 22:46:20 train_clip.py [line:166] INFO: Epoch: 196, Loss: 1.9065 Min Loss: 1.7824
+2024-08-16 22:46:27 train_clip.py [line:166] INFO: Epoch: 197, Loss: 1.9080 Min Loss: 1.7824
+2024-08-16 22:46:34 train_clip.py [line:166] INFO: Epoch: 198, Loss: 2.0368 Min Loss: 1.7824
+2024-08-16 22:46:41 train_clip.py [line:166] INFO: Epoch: 199, Loss: 1.9948 Min Loss: 1.7824
+2024-08-16 22:46:52 train_clip.py [line:166] INFO: Epoch: 200, Loss: 1.8723 Min Loss: 1.7824
+2024-08-16 22:46:59 train_clip.py [line:166] INFO: Epoch: 201, Loss: 1.9186 Min Loss: 1.7824
+2024-08-16 22:47:06 train_clip.py [line:166] INFO: Epoch: 202, Loss: 1.9988 Min Loss: 1.7824
+2024-08-16 22:47:13 train_clip.py [line:166] INFO: Epoch: 203, Loss: 1.9315 Min Loss: 1.7824
+2024-08-16 22:47:21 train_clip.py [line:166] INFO: Epoch: 204, Loss: 1.9668 Min Loss: 1.7824
+2024-08-16 22:47:32 train_clip.py [line:166] INFO: Epoch: 205, Loss: 1.9561 Min Loss: 1.7824
+2024-08-16 22:47:38 train_clip.py [line:166] INFO: Epoch: 206, Loss: 1.9237 Min Loss: 1.7824
+2024-08-16 22:47:46 train_clip.py [line:166] INFO: Epoch: 207, Loss: 2.0622 Min Loss: 1.7824
+2024-08-16 22:47:53 train_clip.py [line:166] INFO: Epoch: 208, Loss: 2.0772 Min Loss: 1.7824
+2024-08-16 22:48:00 train_clip.py [line:166] INFO: Epoch: 209, Loss: 2.0298 Min Loss: 1.7824
+2024-08-16 22:48:11 train_clip.py [line:166] INFO: Epoch: 210, Loss: 1.9216 Min Loss: 1.7824
+2024-08-16 22:48:18 train_clip.py [line:166] INFO: Epoch: 211, Loss: 2.0579 Min Loss: 1.7824
+2024-08-16 22:48:25 train_clip.py [line:166] INFO: Epoch: 212, Loss: 1.9599 Min Loss: 1.7824
+2024-08-16 22:48:32 train_clip.py [line:166] INFO: Epoch: 213, Loss: 2.0189 Min Loss: 1.7824
+2024-08-16 22:48:39 train_clip.py [line:166] INFO: Epoch: 214, Loss: 1.9452 Min Loss: 1.7824
+2024-08-16 22:48:50 train_clip.py [line:166] INFO: Epoch: 215, Loss: 1.9466 Min Loss: 1.7824
+2024-08-16 22:48:57 train_clip.py [line:166] INFO: Epoch: 216, Loss: 1.9916 Min Loss: 1.7824
+2024-08-16 22:49:04 train_clip.py [line:166] INFO: Epoch: 217, Loss: 2.0556 Min Loss: 1.7824
+2024-08-16 22:49:11 train_clip.py [line:166] INFO: Epoch: 218, Loss: 1.8355 Min Loss: 1.7824
+2024-08-16 22:49:19 train_clip.py [line:166] INFO: Epoch: 219, Loss: 1.9725 Min Loss: 1.7824
+2024-08-16 22:49:30 train_clip.py [line:166] INFO: Epoch: 220, Loss: 1.8934 Min Loss: 1.7824
+2024-08-16 22:49:36 train_clip.py [line:166] INFO: Epoch: 221, Loss: 1.9531 Min Loss: 1.7824
+2024-08-16 22:49:43 train_clip.py [line:166] INFO: Epoch: 222, Loss: 2.0257 Min Loss: 1.7824
+2024-08-16 22:49:51 train_clip.py [line:166] INFO: Epoch: 223, Loss: 2.0636 Min Loss: 1.7824
+2024-08-16 22:49:58 train_clip.py [line:166] INFO: Epoch: 224, Loss: 1.9959 Min Loss: 1.7824
+2024-08-16 22:50:09 train_clip.py [line:166] INFO: Epoch: 225, Loss: 1.8781 Min Loss: 1.7824
+2024-08-16 22:50:16 train_clip.py [line:166] INFO: Epoch: 226, Loss: 1.8778 Min Loss: 1.7824
+2024-08-16 22:50:23 train_clip.py [line:166] INFO: Epoch: 227, Loss: 1.9083 Min Loss: 1.7824
+2024-08-16 22:50:30 train_clip.py [line:166] INFO: Epoch: 228, Loss: 1.9044 Min Loss: 1.7824
+2024-08-16 22:50:37 train_clip.py [line:166] INFO: Epoch: 229, Loss: 2.0048 Min Loss: 1.7824
+2024-08-16 22:50:48 train_clip.py [line:166] INFO: Epoch: 230, Loss: 1.9620 Min Loss: 1.7824
+2024-08-16 22:50:55 train_clip.py [line:166] INFO: Epoch: 231, Loss: 2.0651 Min Loss: 1.7824
+2024-08-16 22:51:02 train_clip.py [line:166] INFO: Epoch: 232, Loss: 1.8601 Min Loss: 1.7824
+2024-08-16 22:51:09 train_clip.py [line:166] INFO: Epoch: 233, Loss: 2.0760 Min Loss: 1.7824
+2024-08-16 22:51:17 train_clip.py [line:166] INFO: Epoch: 234, Loss: 2.0758 Min Loss: 1.7824
+2024-08-16 22:51:28 train_clip.py [line:166] INFO: Epoch: 235, Loss: 2.0131 Min Loss: 1.7824
+2024-08-16 22:51:34 train_clip.py [line:166] INFO: Epoch: 236, Loss: 1.9030 Min Loss: 1.7824
+2024-08-16 22:51:42 train_clip.py [line:166] INFO: Epoch: 237, Loss: 1.9918 Min Loss: 1.7824
+2024-08-16 22:51:49 train_clip.py [line:166] INFO: Epoch: 238, Loss: 1.8034 Min Loss: 1.7824
+2024-08-16 22:51:56 train_clip.py [line:166] INFO: Epoch: 239, Loss: 1.8916 Min Loss: 1.7824
+2024-08-16 22:52:07 train_clip.py [line:166] INFO: Epoch: 240, Loss: 2.0748 Min Loss: 1.7824
+2024-08-16 22:52:14 train_clip.py [line:166] INFO: Epoch: 241, Loss: 1.8467 Min Loss: 1.7824
+2024-08-16 22:52:21 train_clip.py [line:166] INFO: Epoch: 242, Loss: 1.8447 Min Loss: 1.7824
+2024-08-16 22:52:28 train_clip.py [line:166] INFO: Epoch: 243, Loss: 2.0206 Min Loss: 1.7824
+2024-08-16 22:52:35 train_clip.py [line:166] INFO: Epoch: 244, Loss: 1.8761 Min Loss: 1.7824
+2024-08-16 22:52:46 train_clip.py [line:166] INFO: Epoch: 245, Loss: 1.9829 Min Loss: 1.7824
+2024-08-16 22:52:53 train_clip.py [line:166] INFO: Epoch: 246, Loss: 1.8596 Min Loss: 1.7824
+2024-08-16 22:53:00 train_clip.py [line:166] INFO: Epoch: 247, Loss: 1.9425 Min Loss: 1.7824
+2024-08-16 22:53:07 train_clip.py [line:166] INFO: Epoch: 248, Loss: 2.0184 Min Loss: 1.7824
+2024-08-16 22:53:15 train_clip.py [line:166] INFO: Epoch: 249, Loss: 1.9288 Min Loss: 1.7824
+2024-08-16 22:53:26 train_clip.py [line:166] INFO: Epoch: 250, Loss: 1.9295 Min Loss: 1.7824
+2024-08-16 22:53:32 train_clip.py [line:166] INFO: Epoch: 251, Loss: 1.9258 Min Loss: 1.7824
+2024-08-16 22:53:40 train_clip.py [line:166] INFO: Epoch: 252, Loss: 1.9597 Min Loss: 1.7824
+2024-08-16 22:53:47 train_clip.py [line:166] INFO: Epoch: 253, Loss: 1.9534 Min Loss: 1.7824
+2024-08-16 22:53:54 train_clip.py [line:166] INFO: Epoch: 254, Loss: 2.0416 Min Loss: 1.7824
+2024-08-16 22:54:05 train_clip.py [line:166] INFO: Epoch: 255, Loss: 2.2329 Min Loss: 1.7824
+2024-08-16 22:54:12 train_clip.py [line:166] INFO: Epoch: 256, Loss: 2.0319 Min Loss: 1.7824
+2024-08-16 22:54:19 train_clip.py [line:166] INFO: Epoch: 257, Loss: 1.9577 Min Loss: 1.7824
+2024-08-16 22:54:26 train_clip.py [line:166] INFO: Epoch: 258, Loss: 2.0334 Min Loss: 1.7824
+2024-08-16 22:54:33 train_clip.py [line:166] INFO: Epoch: 259, Loss: 1.8741 Min Loss: 1.7824
+2024-08-16 22:54:44 train_clip.py [line:166] INFO: Epoch: 260, Loss: 2.1161 Min Loss: 1.7824
+2024-08-16 22:54:51 train_clip.py [line:166] INFO: Epoch: 261, Loss: 2.1958 Min Loss: 1.7824
+2024-08-16 22:54:58 train_clip.py [line:166] INFO: Epoch: 262, Loss: 2.0850 Min Loss: 1.7824
+2024-08-16 22:55:05 train_clip.py [line:166] INFO: Epoch: 263, Loss: 2.0083 Min Loss: 1.7824
+2024-08-16 22:55:13 train_clip.py [line:166] INFO: Epoch: 264, Loss: 2.0610 Min Loss: 1.7824
+2024-08-16 22:55:24 train_clip.py [line:166] INFO: Epoch: 265, Loss: 2.0498 Min Loss: 1.7824
+2024-08-16 22:55:30 train_clip.py [line:166] INFO: Epoch: 266, Loss: 1.8714 Min Loss: 1.7824
+2024-08-16 22:55:38 train_clip.py [line:166] INFO: Epoch: 267, Loss: 2.0001 Min Loss: 1.7824
+2024-08-16 22:55:45 train_clip.py [line:166] INFO: Epoch: 268, Loss: 2.0063 Min Loss: 1.7824
+2024-08-16 22:55:56 train_clip.py [line:166] INFO: Epoch: 269, Loss: 1.7639 Min Loss: 1.7639
+2024-08-16 22:56:06 train_clip.py [line:166] INFO: Epoch: 270, Loss: 1.9214 Min Loss: 1.7639
+2024-08-16 22:56:13 train_clip.py [line:166] INFO: Epoch: 271, Loss: 1.9301 Min Loss: 1.7639
+2024-08-16 22:56:20 train_clip.py [line:166] INFO: Epoch: 272, Loss: 1.9251 Min Loss: 1.7639
+2024-08-16 22:56:27 train_clip.py [line:166] INFO: Epoch: 273, Loss: 1.8374 Min Loss: 1.7639
+2024-08-16 22:56:35 train_clip.py [line:166] INFO: Epoch: 274, Loss: 1.9702 Min Loss: 1.7639
+2024-08-16 22:56:45 train_clip.py [line:166] INFO: Epoch: 275, Loss: 2.1029 Min Loss: 1.7639
+2024-08-16 22:56:52 train_clip.py [line:166] INFO: Epoch: 276, Loss: 1.9517 Min Loss: 1.7639
+2024-08-16 22:56:59 train_clip.py [line:166] INFO: Epoch: 277, Loss: 2.0335 Min Loss: 1.7639
+2024-08-16 22:57:07 train_clip.py [line:166] INFO: Epoch: 278, Loss: 1.8724 Min Loss: 1.7639
+2024-08-16 22:57:14 train_clip.py [line:166] INFO: Epoch: 279, Loss: 1.9191 Min Loss: 1.7639
+2024-08-16 22:57:25 train_clip.py [line:166] INFO: Epoch: 280, Loss: 1.8567 Min Loss: 1.7639
+2024-08-16 22:57:31 train_clip.py [line:166] INFO: Epoch: 281, Loss: 2.0142 Min Loss: 1.7639
+2024-08-16 22:57:39 train_clip.py [line:166] INFO: Epoch: 282, Loss: 1.9429 Min Loss: 1.7639
+2024-08-16 22:57:46 train_clip.py [line:166] INFO: Epoch: 283, Loss: 1.8430 Min Loss: 1.7639
+2024-08-16 22:57:53 train_clip.py [line:166] INFO: Epoch: 284, Loss: 1.9335 Min Loss: 1.7639
+2024-08-16 22:58:04 train_clip.py [line:166] INFO: Epoch: 285, Loss: 1.8181 Min Loss: 1.7639
+2024-08-16 22:58:11 train_clip.py [line:166] INFO: Epoch: 286, Loss: 2.0270 Min Loss: 1.7639
+2024-08-16 22:58:18 train_clip.py [line:166] INFO: Epoch: 287, Loss: 1.9806 Min Loss: 1.7639
+2024-08-16 22:58:25 train_clip.py [line:166] INFO: Epoch: 288, Loss: 1.9584 Min Loss: 1.7639
+2024-08-16 22:58:32 train_clip.py [line:166] INFO: Epoch: 289, Loss: 2.1526 Min Loss: 1.7639
+2024-08-16 22:58:43 train_clip.py [line:166] INFO: Epoch: 290, Loss: 2.1794 Min Loss: 1.7639
+2024-08-16 22:58:50 train_clip.py [line:166] INFO: Epoch: 291, Loss: 1.9002 Min Loss: 1.7639
+2024-08-16 22:58:57 train_clip.py [line:166] INFO: Epoch: 292, Loss: 1.9334 Min Loss: 1.7639
+2024-08-16 22:59:04 train_clip.py [line:166] INFO: Epoch: 293, Loss: 1.8932 Min Loss: 1.7639
+2024-08-16 22:59:12 train_clip.py [line:166] INFO: Epoch: 294, Loss: 1.9157 Min Loss: 1.7639
+2024-08-16 22:59:23 train_clip.py [line:166] INFO: Epoch: 295, Loss: 1.9672 Min Loss: 1.7639
+2024-08-16 22:59:29 train_clip.py [line:166] INFO: Epoch: 296, Loss: 2.0207 Min Loss: 1.7639
+2024-08-16 22:59:36 train_clip.py [line:166] INFO: Epoch: 297, Loss: 1.9244 Min Loss: 1.7639
+2024-08-16 22:59:44 train_clip.py [line:166] INFO: Epoch: 298, Loss: 1.9840 Min Loss: 1.7639
+2024-08-16 22:59:51 train_clip.py [line:166] INFO: Epoch: 299, Loss: 1.9740 Min Loss: 1.7639
+2024-08-16 23:00:02 train_clip.py [line:166] INFO: Epoch: 300, Loss: 1.9403 Min Loss: 1.7639
+2024-08-16 23:00:02 train_clip.py [line:175] INFO: 
+
+Finish training...
